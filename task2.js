@@ -1,7 +1,7 @@
 // if give a string to a function it should return that string in reverse order
 
 
-a = 'mishaj';
+a = 'mango';
 length = a.length;
 //console.log(length);
 const revers = (a) => {
