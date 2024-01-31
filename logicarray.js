@@ -30,7 +30,9 @@ class MyArray {
 
     addElement(index, element) {
         
-        this.data[index] = element;
+        for (let i = index; i <= this.length; i++){
+            
+        }
     }
 
 
