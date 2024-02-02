@@ -7,3 +7,5 @@ function fibonacci(n) {
 }
 
 console.log(fibonacci(7)); // enter how many number in the sequence you want to see
+
+//Big-O => O(n)
