@@ -7,7 +7,7 @@ function prime(n) {
     if (n == 2) {
       return "2 always prime";
     }
-    for (let i = 2; i < n; i++) {
+    
          
         
        
@@ -16,10 +16,7 @@ function prime(n) {
             
         }
         return 'its  prime'
-    }
+    
 }
 
-console.log(prime(104729));
-// console.log((3%2));
 
-// BigO => O(n)
