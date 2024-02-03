@@ -21,3 +21,5 @@ function prime(n) {
 
 console.log(prime(104729));
 // console.log((3%2));
+
+// BigO => O(n)
