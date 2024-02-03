@@ -1,22 +1,21 @@
-function prime(n) {
-     if ( n < 2) {
-            return 'dont try over smart'
-            
-     }
-    
-    if (n == 2) {
-      return "2 always prime";
+function Prime(n) {
+  if (n < 2) {
+    return false;
+  }
+
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
+      return false;
     }
-    
-         
-        
-       
-        if (n%2 == 0) {
-            return 'its not prime';
-            
-        }
-        return 'its  prime'
-    
+  }
+
+  return true;
 }
 
 
+const number = 17; 
+if (Prime(number)) {
+  console.log(number + " is a prime number.");
+} else {
+  console.log(number + " is not a prime number.");
+}
